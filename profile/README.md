@@ -5,10 +5,10 @@
 ## 项目
 
 - [Iscut](https://github.com/Ismantic/Iscut)  
-  把EM算法应用到构建中文分词器上。
+  中文切词器
 
 - [Sime](https://github.com/Ismantic/Sime)  
-  面向长期演进的中文输入法实验项目。
+  中文输入法
 
 ## 说明
 
