@@ -4,9 +4,9 @@
 
 ## 项目
 
-- [Iscut](https://github.com/Ismantic/Iscut)  切词器
+- [Iscut](https://github.com/Ismantic/Iscut)  是语切词器
 
-- [Sime](https://github.com/Ismantic/Sime)  输入法
+- [Sime](https://github.com/Ismantic/Sime)  是语输入法
 
 ## 说明
 
