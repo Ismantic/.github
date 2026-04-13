@@ -4,9 +4,8 @@
 
 ## 项目
 
-- 是语切词器 [Iscut](https://github.com/Ismantic/Iscut)  
+- 是语输入法 [Sime](https://github.com/Ismantic/Sime)
 
-- 是语输入法 [Sime](https://github.com/Ismantic/Sime)  
 
 ## 说明
 
