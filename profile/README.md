@@ -4,13 +4,15 @@
 
 ## 项目
 
-- 是语输入法 [Sime](https://github.com/Ismantic/Sime)
-- 是语人物志 [IsEntity](https://github.com/Ismantic/IsEntity)
+- [Sime](https://github.com/Ismantic/Sime) 
+- [Handwritten](https://github.com/Ismantic/Handwritten) 
+- [IsEntity](https://github.com/Ismantic/IsEntity)
 
 - [PieceTokenizer](https://github.com/Ismantic/PieceTokenizer)
 - [BERTc](https://github.com/Ismantic/BERTc)
-- [Interpreter](https://github.com/Ismantic/Interpreter)
 - [Summer](https://github.com/Ismantic/Summer)
+- [Interpreter](https://github.com/Ismantic/Interpreter)
+
 
 ## 说明
 
