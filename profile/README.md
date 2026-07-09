@@ -4,10 +4,15 @@
 
 ## 项目
 
-- [Sime](https://github.com/Ismantic/Sime) 
-- [Handwritten](https://github.com/Ismantic/Handwritten) 
+是语输入法
+- [Sime](https://github.com/Ismantic/Sime)
+- [IsCut] (https://github.com/Ismantic/IsCut)
+- [Handwritten](https://github.com/Ismantic/Handwritten)
+
+是语百科
 - [IsEntity](https://github.com/Ismantic/IsEntity)
 
+小模型
 - [PieceTokenizer](https://github.com/Ismantic/PieceTokenizer)
 - [BERTc](https://github.com/Ismantic/BERTc)
 - [Summer](https://github.com/Ismantic/Summer)
