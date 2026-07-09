@@ -10,7 +10,7 @@
   
 是语输入法
 - [Sime](https://github.com/Ismantic/Sime)
-- [IsCut] (https://github.com/Ismantic/IsCut)
+- [IsCut](https://github.com/Ismantic/IsCut)
 - [Handwritten](https://github.com/Ismantic/Handwritten)
 
 
