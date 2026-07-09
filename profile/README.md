@@ -8,7 +8,8 @@
 - 是语人物志 [IsEntity](https://github.com/Ismantic/IsEntity)
 
 - [PieceTokenizer](https://github.com/Ismantic/PieceTokenizer)
-- [BERTc](https://github.com/Ismantic/BERTc/settings)
+- [BERTc](https://github.com/Ismantic/BERTc)
+- [Interpreter](https://github.com/Ismantic/Interpreter)
 
 
 ## 说明
