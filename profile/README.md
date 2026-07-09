@@ -26,6 +26,7 @@
 - [Semat](https://github.com/Ismantic/Semat)
 - [Regex](https://github.com/Ismantic/Regex)
 - [Trie](https://github.com/Ismantic/Trie)
+- [UTF-8](https://github.com/Ismantic/Ustr)
 - [Matx](https://github.com/Ismantic/Matx)
 - [Zero](https://github.com/Ismantic/Zero)
 
