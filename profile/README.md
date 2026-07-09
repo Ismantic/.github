@@ -7,6 +7,8 @@
 - 是语输入法 [Sime](https://github.com/Ismantic/Sime)
 - 是语人物志 [IsEntity](https://github.com/Ismantic/IsEntity)
 
+- [PieceTokenizer] (https://github.com/Ismantic/PieceTokenizer)
+
 
 ## 说明
 
