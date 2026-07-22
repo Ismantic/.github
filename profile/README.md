@@ -10,8 +10,8 @@
 
   
 是语输入法
-- [Sime](https://github.com/Ismantic/Sime) 支持简繁/中英，以统计语言模型为核心的拼音输入法引擎。
 - [DictCut](https://github.com/Ismantic/DictCut) 支持输入法项目用的EM中文分词算法，需要提前准备好词表与语料。
+- [Sime](https://github.com/Ismantic/Sime) 支持简繁/中英，以统计语言模型为核心的拼音输入法引擎。
 - [Handwritten](https://github.com/Ismantic/Handwritten) 补充手写汉字识别输入而训练的MobileNet-v2模型。
 
 
