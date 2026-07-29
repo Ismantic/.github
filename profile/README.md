@@ -39,9 +39,9 @@
 
 以本地统计语言模型为核心，支持简繁、中英、全拼、简拼和九宫格输入。
 
-- [Sime](https://github.com/Ismantic/Sime)：C++ 输入法引擎、语言模型与训练工具。
 - [SimeApp](https://github.com/Ismantic/SimeApp)：Android、macOS 与
   Linux/Fcitx5 输入法应用。
+- [Sime](https://github.com/Ismantic/Sime)：C++ 输入法引擎、语言模型与训练工具。
 - [DictCut](https://github.com/Ismantic/DictCut)：面向输入法语料的 EM
   中文分词实现。
 - [Handwritten](https://github.com/Ismantic/Handwritten)：为输入法补充手写
