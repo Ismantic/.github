@@ -1,38 +1,54 @@
 # 是语实验室
+
 不争一时，相信投入就会有回报。不同大实验室比资源，跟开源社区一起成长。是语实验室的投入方向是：
 - **低成本实践**：目标是以有限资源交付出有实际应用价值的模型和应用；
 - **底层实现**：目标是深度剖析语言技术的不同环节，交付易理解的代码库和文档；
 
-## 项目
+## 三本书
 
-是语百科 
-- [IsEntity](https://github.com/Ismantic/IsEntity) 是语人物志，强类型Scheme的Entity库。（数据来自维基数据/维基百科）
+三本书的源码统一维护在
+[IsBook](https://github.com/Ismantic/IsBook)，从文本、训练到编译器，记录语言
+技术的底层实现。
 
-  
-是语输入法
-- [DictCut](https://github.com/Ismantic/DictCut) 支持输入法项目用的EM中文分词算法，需要提前准备好词表与语料。
-- [Sime](https://github.com/Ismantic/Sime) 支持简繁/中英，以统计语言模型为核心的拼音输入法引擎。
-- [Handwritten](https://github.com/Ismantic/Handwritten) 补充手写汉字识别输入而训练的MobileNet-v2模型。
+- [Text：文本处理](https://ismantic.github.io/text)
+  从 Unicode、UTF-8 和正则表达式出发，实现 Trie、中文分词与 Tokenizer。
+- [Zero：训练引擎](https://ismantic.github.io/zero)
+  从张量和自动微分出发，实现模型训练、GPU 计算与 GPT。
+- [Matx：编译器](https://ismantic.github.io/matx)
+  从 AST 和 Visitor 出发，实现运行时对象、容器、函数与 FFI。
 
+## 两套模型
 
-小模型
-- [PieceTokenizer](https://github.com/Ismantic/PieceTokenizer) 相比SentencePiece，增加了更多的中文支持。
-- [BERTc](https://github.com/Ismantic/BERTc) 模型结构有改进，泛化性更好，做了CWS/NER/POS与纠错的下游任务。
-- [Wapic](https://github.com/Ismantic/Wapic) 蒸馏泛化性更好的BERT模型，得到速度更快的CRF模型。
-- [Summer](https://github.com/Ismantic/Summer) 用ReTok方法给底座模型(Qwen3)换Tokenizer，性能有损。
-- [Interpreter](https://github.com/Ismantic/Interpreter) 以Summer为底座，用SFT+DPO+GPRO方法训练得到的中英翻译模型。
+### BERT
 
+- [BERTc](https://github.com/Ismantic/BERTc)：改进 BERT 模型结构，并实践
+  CWS、NER、POS 与文本纠错等任务。
+- [Wapic](https://github.com/Ismantic/Wapic)：将泛化能力更强的 BERT 模型
+  蒸馏为更轻、更快的 CRF 模型。
 
-基础库
-- [Wavec](https://github.com/Ismantic/Wavec) 实现了经典的w2v方法，以及附带了实现Kmeans聚类，能作为Topic初始化用。
-- [Semat](https://github.com/Ismantic/Semat) 实现了经典的LDA方法，用了分桶的技巧得以时间复杂度大幅降低。
-- [Regex](https://github.com/Ismantic/Regex) 用状态机的方式实现的Regex引擎，支持了也许是用的最多的GPT-4 Pretoken正则。
-- [Trie](https://github.com/Ismantic/Trie) 字典树是NLP领域最核心的数据结构，DoubleArrayTrie的基本实现。
-- [UTF-8](https://github.com/Ismantic/Ustr) Unicode和UTF-8的编码方式讲解，以及简单的转化规则的代码实现。
-- [Matx](https://github.com/Ismantic/Matx) Python -> C++ 的编译器实现，当前价值有限了。
-- [Zero](https://github.com/Ismantic/Zero) 用C++实现了类似PyTorch的深度学习引擎实现，支持GPT模型的训练。
+### GPT
 
+- [Summer](https://github.com/Ismantic/Summer)：使用 ReTok 为 Qwen3
+  更换 Tokenizer，研究词表迁移对模型能力的影响。
+- [Interpreter](https://github.com/Ismantic/Interpreter)：在 Summer 基础上
+  结合 SFT、DPO 与 GRPO 训练中英翻译模型。
 
-## 说明
+## 两个产品
 
-这里的大多数项目仍在持续演进中。  
+### 是语输入法
+
+以本地统计语言模型为核心，支持简繁、中英、全拼、简拼和九宫格输入。
+
+- [Sime](https://github.com/Ismantic/Sime)：C++ 输入法引擎、语言模型与训练工具。
+- [SimeApp](https://github.com/Ismantic/SimeApp)：Android、macOS 与
+  Linux/Fcitx5 输入法应用。
+- [DictCut](https://github.com/Ismantic/DictCut)：面向输入法语料的 EM
+  中文分词实现。
+- [Handwritten](https://github.com/Ismantic/Handwritten)：为输入法补充手写
+  汉字识别能力的 MobileNet-v2 模型。
+
+### 是语人物志
+
+- [IsEntity](https://github.com/Ismantic/IsEntity)：基于维基数据和维基百科，
+  使用强类型 Scheme Entity 组织人物知识。
+
