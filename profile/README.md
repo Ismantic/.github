@@ -26,10 +26,9 @@
 
 ### GPT
 
-- [Summer](https://github.com/Ismantic/Summer)：使用 ReTok 为 Qwen3
-  更换 Tokenizer，研究词表迁移对模型能力的影响。
+- [Summer](https://github.com/Ismantic/Summer)：类似 NanoChat，不过增加了对中文语料的处理，以及 ReTok 的支持。
 - [Interpreter](https://github.com/Ismantic/Interpreter)：在 Summer 基础上
-  结合 SFT、DPO 与 GRPO 训练中英翻译模型。
+  结合 SFT、CPO 与 GRPO 训练中英翻译模型。
 
 ## 两个产品
 
