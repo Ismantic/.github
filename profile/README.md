@@ -1,14 +1,13 @@
 # 是语实验室
 
-是语实验室的投入方向是：
+当前的投入方向是：
 - **低成本实践**：目标是以有限资源交付出有实际应用价值的模型和应用；
 - **底层实现**：目标是深度剖析语言技术的不同环节，交付易理解的代码库和文档；
 
 ## 三本书
 
 三本书的源码统一维护在
-[IsBook](https://github.com/Ismantic/IsBook)，从文本、训练到编译器，记录语言
-技术的底层实现。
+[IsBook](https://github.com/Ismantic/IsBook)，记录语言技术的底层实现。
 
 - [Text：文本处理](https://ismantic.github.io/text)
   从 Unicode、UTF-8 和正则表达式出发，实现 Trie、中文分词与 Tokenizer。
