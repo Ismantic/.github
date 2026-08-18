@@ -24,7 +24,7 @@
 - [BERTc](https://github.com/Ismantic/BERTc)：改进 BERT 模型结构，并实践
   CWS、NER、POS 与文本纠错等 Character 分类任务。
 - [Wapic](https://github.com/Ismantic/Wapic)：把泛化能力更强的 BERT 模型
-  蒸馏为更轻、更快的 CRF 模型，对 Wapiti 的现代 C++ 重构。
+  蒸馏为更轻、更快的 CRF 模型，Wapiti 的 C++ 重构。
 
 ### GPT
 
