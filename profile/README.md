@@ -36,7 +36,7 @@
 
 ### 是语输入法
 
-以本地统计语言模型为核心，支持简繁、中英、全拼、简拼和九宫格输入。
+以本地统计语言模型为核心，支持简繁、中英、全拼、简拼和九宫格输入，以及手写输入。
 
 - [SimeApp](https://github.com/Ismantic/SimeApp)：Android、macOS 与
   Linux/Fcitx5 输入法应用。
