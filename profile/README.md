@@ -22,7 +22,7 @@
 ### BERT
 
 - [BERTc](https://github.com/Ismantic/BERTc)：改进 BERT 模型结构，并实践
-  CWS、NER、POS 与文本纠错等任务。
+  CWS、NER、POS 与文本纠错等Character分类任务。
 - [Wapic](https://github.com/Ismantic/Wapic)：将泛化能力更强的 BERT 模型
   蒸馏为更轻、更快的 CRF 模型。
 
